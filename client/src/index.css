@@ -1398,6 +1398,10 @@ h2{
     border-radius: none;
   }
 
+  .m_flex{
+    justify-content: center;
+  }
+
   .card{
     width: 450px;
   }
