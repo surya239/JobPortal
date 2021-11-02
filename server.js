@@ -23,7 +23,7 @@ var r = new Date();
 const oauthClient = new google.auth.OAuth2(
     process.env.GOOGLE_KEY,
     process.env.GOOGLE_SECRET,
-    'http://localhost:5000/auth/google/callBack',
+    'https://jobxprezportal.herokuapp.com/auth/google/callBack',
 );
 
 const getGoogleOauthUrl = () => {
