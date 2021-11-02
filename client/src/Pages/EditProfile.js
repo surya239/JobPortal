@@ -79,7 +79,7 @@ function EditProfile(){
             label:'Phd'
         }
     ]
-    var skill_li = [
+    var skill_li= [
         {
             value: 1,
             label: 'React Js'
@@ -146,7 +146,7 @@ function EditProfile(){
         },
         {
             value:17,
-            label:'Amazon Web Service'
+            label:'Amazon Web Server'
         },
         {
             value:18,
@@ -156,6 +156,38 @@ function EditProfile(){
             value:19,
             label:'TypeScript'
         },
+        {
+            value:20,
+            label:'Adobe Photoshop'
+        },
+        {
+            value:21,
+            label:'Adobe Illustrator'
+        },
+        {
+            value:22,
+            label:'Ms-Excel'
+        },
+        {
+            value:23,
+            label:"Ms -Word"
+        },
+        {
+            value: 24,
+            label:'Machine Learning'
+        },
+        {
+            value: 25,
+            label: 'Deep Learning'
+        },
+        {
+            value: 26,
+            label: 'Django'
+        },
+        {
+            value: 27,
+            label: "Java"
+        }
     ]
 
     var skills_li = (e) => {
