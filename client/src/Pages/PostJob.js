@@ -205,6 +205,10 @@ const cate = [
         {
             value: 26,
             label: 'Django'
+        },
+        {
+            value: 27,
+            label: "Java"
         }
     ]
     var handle = (e) =>{
