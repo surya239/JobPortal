@@ -66,10 +66,6 @@ function ViewJobs(props){
         },
         {
             id: 12,
-            value: 'UI/UX Designer'
-        },
-        {
-            id: 13,
             value:'Web Developer'
         }
     ]
