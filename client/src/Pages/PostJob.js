@@ -168,7 +168,7 @@ const cate = [
         },
         {
             value:17,
-            label:'Amazon Web Service'
+            label:'Amazon Web Server'
         },
         {
             value:18,
@@ -178,6 +178,34 @@ const cate = [
             value:19,
             label:'TypeScript'
         },
+        {
+            value:20,
+            label:'Adobe Photoshop'
+        },
+        {
+            value:21,
+            label:'Adobe Illustrator'
+        },
+        {
+            value:22,
+            label:'Ms-Excel'
+        },
+        {
+            value:23,
+            label:"Ms -Word"
+        },
+        {
+            value: 24,
+            label:'Machine Learning'
+        },
+        {
+            value: 25,
+            label: 'Deep Learning'
+        },
+        {
+            value: 26,
+            label: 'Django'
+        }
     ]
     var handle = (e) =>{
         setRskills(Array.isArray(e)? e.map (x => x.label):[])
