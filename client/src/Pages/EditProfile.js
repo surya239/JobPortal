@@ -42,8 +42,8 @@ function EditProfile(){
             const data = response.data
             const {linkedin, resume, github, skills, high_q} = data[0];
             setLinkedin(linkedin);
-            setGithub(resume)
-            setResume(github)
+            setGithub(github)
+            setResume(resume)
             setSkills(skills)
             setQualification(high_q);
         } catch (err) {
